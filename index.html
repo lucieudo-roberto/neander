@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel='stylesheet' href='css/styles.css'/>
+</head>
+<body>
+    <main id='app'>
+        <header>
+            <status-grid :status='status.data'></status-grid>
+            <status-line :status="status.colo"></status-line>
+        </header>
+        <inputs-data @opcode='app_opcode_push' @rspeed='app_rspeed_conf'></inputs-data>
+        <memory-grid :ram_buffer='machin.rmemory'></memory-grid>
+        <console-log :erros='status.logs'></console-log>
+        <actions @open-edit ='app_editor_show' @exec-code='fc_run' :init_label='machin.bnt_txt'></actions>
+        <editor  @exit-edit ='app_editor_hidd' :show_editor='editor.show'></editor>
+    </main>
+    <script src='src/vue/vue3.js'></script>
+    <script src='src/app.js' type='module'></script>
+</body>
+</html>
