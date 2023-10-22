@@ -22,36 +22,49 @@ export default class {
         x6: () => { // hlt
             this.init = false 
             clearInterval(this.stat)
-            this.logs = 'neander: call htl'
         },               
         x8: () => { 
-            this.logs = 'neander: call not'
+            this.data.acm = ~ this.data.acm
         },             
         x5: () => {
             this.logs = 'neander: call jmp' 
         },  
         
         x2: () => { // sta
+            let indice = _hex2dec(this.mram[this.data.add+1])
+            this.mram[indice] = this.data.acm.toString(16)
         },
 
         x3: () => { // lda
-            this.logs = 'neander: call lda'
             let indice = _hex2dec(this.mram[this.data.add+1])
             this.data.acm = _hex2dec(this.mram[indice])
         },
         x4: () => { // add
+            let indice = _hex2dec(this.mram[this.data.add+1])
+            this.data.acm += _hex2dec(this.mram[indice])
         },
         
         x7: () => { //and
+            let indice = _hex2dec(this.mram[this.data.add+1])
+            this.data.acm = this.data.acm & _hex2dec(this.mram[indice])
         },
 
         x9: () => { //jn
+            if ( this.data.acm < 0 ) {
+                let indice = _hex2dec(this.mram[this.data.add+1])
+                this.data.add = (_hex2dec(this.mram[indice])-1)
+            }
         },
 
         xa: () => { //jz
+            if ( this.data.acm == 0 ) {
+                let indice = _hex2dec(this.mram[this.data.add+1])
+                this.data.add = (_hex2dec(this.mram[indice])-1)
+            }
         },
 
         xb: () => { //or
+            
         }
     }
     
@@ -70,7 +83,6 @@ export default class {
     	this.data.add = (main_id != -1 ) ? main_id : 0;
     
         this.stat = setInterval(() => {
-            console.log(this.data.add)
             if ( this.mram[this.data.add] in this.opcodes ) {
                 this.opcodes[this.mram[this.data.add]]()
             }

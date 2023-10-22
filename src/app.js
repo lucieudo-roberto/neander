@@ -43,7 +43,7 @@ const app = createApp({
             if ( _op.length > 0 ) { 
                 _op = _op.match(/([\d]{1,3}:[\d]{1,3})/gm) 
                 this.machin.opcodes = _op
-            } // remover isso daqui 
+            }
         },
 
         app_rspeed_conf(value) { this.machin.vlspeed = value },
