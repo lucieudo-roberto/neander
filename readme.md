@@ -26,7 +26,7 @@ O Simulador da Máquina Neander é uma ferramenta web que permite aos usuários 
 
 ## Instalação
 Não é necessário instalação para usar o Simulador da Máquina Neander. 
-Basta abrir o (aplicativo web)[https://lucieudo-roberto.github.io/neander/] fornecido em um navegador que suporte JavaScript e Vue 3.
+Basta abrir o [aplicativo web](https://lucieudo-roberto.github.io/neander/) fornecido em um navegador que suporte JavaScript e Vue 3.
 
 ## Contribuição
 Contribuições são bem-vindas! Se você tem ideias para melhorar este projeto, fique à vontade para abrir uma issue ou enviar um pull request.
