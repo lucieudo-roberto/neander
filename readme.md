@@ -2,10 +2,10 @@
 # Simulador da Máquina Neander
 
 
-![JavaScript](https://img.shields.io/badge/js-yellow)
+![JavaScript](https://img.shields.io/badge/language-js-yellow)
 ![html5](https://img.shields.io/badge/language-html-red)
 ![css3](https://img.shields.io/badge/language-css-blue)
-![vue3](https://img.shields.io/badge/language-vue-yellow)
+![vue3](https://img.shields.io/badge/framework-vue-yellow)
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
