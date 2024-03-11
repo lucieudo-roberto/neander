@@ -1,6 +1,14 @@
 
 # Simulador da Máquina Neander
 
+
+![JavaScript](https://img.shields.io/badge/language-js-yellow)
+![html5](https://img.shields.io/badge/language-html-red)
+![css3](https://img.shields.io/badge/language-css-blue)
+![vue3](https://img.shields.io/badge/language-vue-yellow)
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 ## Visão Geral
 O Simulador da Máquina Neander é uma ferramenta web que permite aos usuários experimentar e compreender o funcionamento da Máquina Neander, um computador de 8 bits. Ele oferece uma interface intuitiva e recursos avançados para escrever, executar e depurar programas Neander, além de proporcionar uma experiência imersiva de programação de baixo nível.
 
