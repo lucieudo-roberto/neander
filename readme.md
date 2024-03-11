@@ -2,7 +2,7 @@
 # Simulador da Máquina Neander
 
 
-![JavaScript](https://img.shields.io/badge/language-js-yellow)
+![JavaScript](https://img.shields.io/badge/js-yellow)
 ![html5](https://img.shields.io/badge/language-html-red)
 ![css3](https://img.shields.io/badge/language-css-blue)
 ![vue3](https://img.shields.io/badge/language-vue-yellow)
