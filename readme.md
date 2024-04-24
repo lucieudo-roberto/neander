@@ -10,7 +10,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Visão Geral
-O Simulador da Máquina Neander é uma ferramenta web que permite aos usuários experimentar e compreender o funcionamento da Máquina Neander, um computador de 8 bits. Ele oferece uma interface intuitiva e recursos avançados para escrever, executar e depurar programas Neander, além de proporcionar uma experiência imersiva de programação de baixo nível.
+<p align="justify">
+O Simulador da Máquina Neander é uma ferramenta web que permite aos usuários experimentar e compreender o funcionamento da Máquina Neander, um computador de 8 bits. Ele oferece uma interface intuitiva e recursos avançados para escrever, executar e depurar programas Neander, além de proporcionar uma experiência imersiva de programação de baixo nível.</p>
 
 ## Recursos Principais
 - **Simulação Precisa:** O simulador simula com precisão os acessos à memória e a execução de instruções da Máquina Neander.
@@ -33,12 +34,14 @@ O Simulador da Máquina Neander é uma ferramenta web que permite aos usuários 
 5. **Salvar Progresso:** Salve seu trabalho para continuar mais tarde, utilizando a opção de salvar.
 
 ## Instalação
+<p align="justify">
 Não é necessário instalação para usar o Simulador da Máquina Neander. 
-Basta abrir o [aplicativo web](https://lucieudo-roberto.github.io/neander/) fornecido em um navegador que suporte JavaScript e Vue 3.
+Basta abrir o [aplicativo web](https://lucieudo-roberto.github.io/neander/) fornecido em um navegador que suporte JavaScript e Vue 3.</p>
 
 ## Contribuição
-Contribuições são bem-vindas! Se você tem ideias para melhorar este projeto, fique à vontade para abrir uma issue ou enviar um pull request.
+<p align="justify">
+Contribuições são bem-vindas! Se você tem ideias para melhorar este projeto, fique à vontade para abrir uma issue ou enviar um pull request.</p>
 
 
 ## Licença
-Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+Este projeto é licenciado sob a Licença MIT.
